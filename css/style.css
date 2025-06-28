@@ -4,3 +4,46 @@ body{
     background-color: #EEE;
     font-family: sans-serif;
 }
+.sidebar{
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.sidebar .sidebar-top{
+    height: 60px;
+    border-bottom: 0.1px solid #EEE;
+    box-shadow: #16C47F 0px 10px 10px -10px;
+}
+.sidebar .sidebar-top h4{
+    padding-top: 14px;
+    background: -webkit-linear-gradient(#16C47F, #FF4F0F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#active{
+    background-color: #16C47F;
+    color: #fff;
+    margin-top: 15px;
+}
+.sidebar .sidebar-bottom nav a{
+    display: block;
+    text-decoration: none;
+    color: #313131;
+    padding: 8px 10px 8px 20px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.sidebar .sidebar-bottom nav a i{
+    padding-right: 8px;
+}
+.sidebar .sidebar-bottom nav a:hover{
+    background-color: #16C47F;
+    color: #fff;
+}
