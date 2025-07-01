@@ -24,11 +24,15 @@
                             <div class="sidebar-bottom">
                                 <nav>
                                     <a href="javascript:void(0)" id="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
-                                    <a href="javascript:void(0)"><i class="fas fa-signal"></i> Category</a>
-                                    <a href="javascript:void(0)"><i class="fas fa-hamburger"></i> Food</a>
-                                    <a href="javascript:void(0)"><i class="fab fa-first-order"></i> Order</a>
-                                    <a href="javascript:void(0)"><i class="fas fa-weight"></i> Status</a>
-                                    <a href="javascript:void(0)"><i class="fas fa-rupee-sign"></i> Transaction</a>
+                                    <a href="javascript:void(0)" onclick="ShowCategory()"><i class="fas fa-signal"></i> Category <i id="drop" class="fas fa-angle-right"></i></a>
+                                        <div id="submenu">
+                                            <a href="javascript:void(0)"><i class="far fa-circle"></i> Add</a>
+                                            <a href="javascript:void(0)"><i class="far fa-circle"></i> View</a>
+                                        </div>
+                                    <a href="javascript:void(0)"><i class="fas fa-hamburger"></i> Food <i id="drop1" class="fas fa-angle-right"></i></a>
+                                    <a href="javascript:void(0)"><i class="fab fa-first-order"></i> Order <i id="drop2" class="fas fa-angle-right"></i></a>
+                                    <a href="javascript:void(0)"><i class="fas fa-weight"></i> Status <i id="drop3" class="fas fa-angle-right"></i></a>
+                                    <a href="javascript:void(0)"><i class="fas fa-rupee-sign"></i> Transaction <i id="drop4" class="fas fa-angle-right"></i></a>
                                     <a href="javascript:void(0)"><i class="fas fa-question"></i> Help</a>
                                 </nav>
                             </div>
@@ -37,5 +41,6 @@
                 </div>
             </div>
         </section>
+    <script src="js/custom.js"></script>
     </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is javaScript</title>
+    <script>
+        function Show(){
+            let first = Number(document.getElementById('first').value);
+            let sec = Number(document.getElementById('sec').value);
+            let total = first + sec;
+            document.getElementById('result').value = total;
+        }
+    </script>
+</head>
+<body>
+    Enter First Number: <input id="first">
+    Enter Second Number: <input id="sec">
+    <button onclick="Show()">Get Result</button>
+    Result is <input id="result">
+</body>
+</html>

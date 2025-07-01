@@ -47,3 +47,29 @@ body{
     background-color: #16C47F;
     color: #fff;
 }
+
+#drop,#drop1,#drop2,#drop3,#drop4{
+    float: right;
+    margin-top: 5px;
+}
+#submenu{
+    padding-left: 25px;
+    display: none;
+    animation: growDown 500ms ease-in-out forwards;
+    transform-origin: top center;
+}
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+#submenu a:hover{
+    background-color: transparent;
+    color: #000;
+}
