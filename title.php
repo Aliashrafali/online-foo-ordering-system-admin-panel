@@ -3,6 +3,7 @@
     
     $titles = [
         "index" => "Home Page",
+        "add-category" => 'Add Category'
     ];
 
     if(isset($titles[$page])){

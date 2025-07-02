@@ -73,3 +73,33 @@ body{
     background-color: transparent;
     color: #000;
 }
+.top-header{
+    height: 60px;
+    background-color: #fff;
+    box-shadow: #16C47F 0px 10px 10px -10px;
+}
+.top-header h4{
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* category form start */
+.form{
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0.1px solid #16C47F;
+    border-top: 3px solid #16C47F;
+    margin-top: 5%;
+}
+.form input[type="text"]{
+    height: 47px;
+}
+.form input[type="text"]::placeholder{
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+.form input[type="file"]{
+    height: 47px;
+    padding-top:11px!important;
+}
