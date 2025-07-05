@@ -17,7 +17,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="form p-3">
                     <span><b>Fill Food Category Details</b></span><hr>
-                    <form action="">
+                    <form action="sql/add-category.php" method="POST" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Category <sup><span style="color: red;">*</span></sup></label>
                             <input type="text" name="category" class="form-control" id="category" aria-describedby="emailHelp" placeholder="Enter Category Name" required>
@@ -31,7 +31,7 @@
                             <div class="col-12">
                                 <div style="display: block; float: right;">
                                     <button type="reset" class="btn btn-danger">Reset</button>
-                                    <button type="submit" class="btn btn-success" onclick="return validateCategory()">Submit</button>
+                                    <button type="submit" name="ok" class="btn btn-success" onclick="return validateCategory()">Submit</button>
                                 </div>
                             </div>
                         </div>
